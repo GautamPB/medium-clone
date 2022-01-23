@@ -2,7 +2,7 @@ import Link from 'next/link' //nextjs pre-fetches the page to be rendered in the
 
 export default function Header() {
     return (
-        <header className="flex justify-between p-5 max-w-7xl mx-auto">
+        <header className="flex justify-between p-5 max-w-7xl mx-auto bg-white">
             <div className="flex items-center space-x-5">
                 <Link href="/">
                     <img

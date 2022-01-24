@@ -16,6 +16,6 @@ export interface Post {
     slug: {
         current: string
     }
-
+    title: string
     body: [object]
 }
